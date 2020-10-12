@@ -1,0 +1,284 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.bg-curve-design {
+  position: absolute;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(263, 68%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  border-radius: 0 0 250px 0;
+  padding: 20px;
+  width: 200px;
+  height: 500px;
+}
+body {
+  margin: 0;
+  width: 100%;
+  background: #ffffff;
+}
+.mobile-design {
+  position: relative;
+  top: 3rem;
+  left: 5.5rem;
+  background: hsl(270, 20%, 96%);
+  border-radius: 25px;
+  height: 610px;
+  width: 290px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.mobile-view-interface {
+  position: relative;
+  width: 50%;
+  height: max-content;
+}
+/* MOBILE HEADING SECTION */
+
+.mobile-heading-top {
+  background-image: linear-gradient(
+    to right,
+    hsl(263, 68%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 25px 25px 5px 5px;
+}
+.heading-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  height: 50px;
+  line-height: 25%;
+}
+.heading-name {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.5;
+}
+.heading-name p {
+  color: hsl(276, 100%, 81%);
+}
+.fas {
+  flex-grow: 0.1;
+}
+.mobile-heading-top img {
+  border: 0.2em solid white;
+  border-radius: 50%;
+  width: 30px;
+}
+.mobile-camera-interface {
+  position: relative;
+  left: 60px;
+  background: #ffffff;
+  height: 25px;
+  width: 170px;
+  border-radius: 0 0 20px 20px;
+}
+/* CHAT SECTION */
+.chat-area {
+  margin: 0;
+  padding: 10px;
+  height: 360px;
+}
+.container {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 15px 15px 15px 5px;
+  width: 200px;
+  height: 25px;
+  color: hsl(276, 55%, 52%);
+  padding: 10px;
+  margin: 10px 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.container p {
+  margin: 0;
+}
+.container-1 {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 15px 15px 15px 5px;
+  width: 150px;
+  height: 25px;
+  color: hsl(276, 55%, 52%);
+  padding: 10px;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.container-1 p {
+  margin: 0;
+}
+.img-container img {
+  position: relative;
+  float: right;
+  width: 60px;
+  height: auto;
+  border: 0.2em solid white;
+  border-radius: 30%;
+}
+.container-right {
+  float: right;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 15px 15px 5px 15px;
+  box-shadow: 5px 5px 15px grey;
+  color: hsl(271, 15%, 43%);
+  padding: 3px 5px 10px 15px;
+  margin: 10px 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.container-right-short {
+  float: right;
+  width: 85px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px 15px 5px 15px;
+  box-shadow: 5px 5px 15px grey;
+  color: hsl(271, 15%, 43%);
+  padding: 0 5px 0 15px;
+  margin: 10px 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.chat-right {
+  width: 100%;
+  height: 200px;
+}
+.last-chat-box {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 15px 15px 15px 5px;
+  width: 150px;
+  height: 40px;
+  color: hsl(276, 55%, 52%);
+  padding: 5px 10px 20px;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+}
+/* PRICE CHAT BOX */
+.price-area {
+  padding: 0 10px 0;
+}
+.price-chat {
+  position: relative;
+  background-color: #e6e6e6;
+  color: #ffffff;
+  border-radius: 10px 10px 10px 5px;
+  width: 160px;
+  height: 20px;
+  padding: 5px 10px 5px;
+  margin: 10px 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(263, 68%, 61%)
+  );
+}
+.price-chat span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.price-chat h4 {
+  font-size: 10px;
+  font-weight: 100;
+}
+.price-chat p {
+  font-size: 13px;
+  font-weight: 700;
+}
+.price-chat p,
+.price-chat h4 {
+  margin: 0;
+}
+/* TEXT BOX AREA */
+.text-input-area {
+  margin: 0;
+  padding: 0;
+}
+.text-box {
+  position: relative;
+  left: 10px;
+  background-color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  width: 250px;
+  height: 25px;
+  color: hsl(276, 55%, 52%);
+  padding: 10px;
+  margin: 10px 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-box p {
+  margin: 0;
+  color: hsl(206, 6%, 79%);
+  font-size: 12px;
+  width: 50%;
+  padding: 5px 50px 5px;
+}
+.send-button {
+  margin: 0;
+  position: relative;
+  left: 5px;
+  color: hsl(271, 36%, 24%);
+  font-size: 20px;
+}
+
+/* LAST PARAGRAPH SECTION */
+.last-para {
+  margin: 0;
+  width: auto;
+  position: relative;
+  top: 15%;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
+  color: hsl(271, 36%, 24%);
+}
+.last-para p {
+  color: hsl(270, 7%, 64%);
+}
+.attribution {
+  position: relative;
+  top: 20%;
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* RESPONSIVE CSS */
+/*  */
