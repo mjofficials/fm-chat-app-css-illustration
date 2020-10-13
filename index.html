@@ -1,131 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <!-- CSS link -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    />
-    <title>Frontend Mentor | [Manojkumar]</title>
-    <!-- CDN -->
-    <script
-      src="https://kit.fontawesome.com/57485fc5d2.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Frontend Mentor | [Chat app illustration]</title>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  </head>
-  <body>
-    <div class="bg-curve-design"></div>
-    <div class="mobile-design">
-      <section class="initial-section">
-        <!-- MOBILE heading start -->
-        <div class="mobile-heading-top">
-          <div class="mobile-camera-interface"></div>
-          <div class="heading-content">
-            <i
-              class="fas fa-angle-left fa-lg"
-              style="font-size: 25px; padding-top: 10px"
-            ></i>
-            <span><img src="images/avatar.jpg" alt="" /></span>
-            <span class="heading-name">
-              <h2>Samuel Green</h2>
-              <p>Available to Walk</p></span
-            >
-            <i
-              class="fas fa-ellipsis-v fa-lg"
-              style="font-size: larger; padding-top: 10px"
-            ></i>
-          </div>
-        </div>
-        <!-- MOBILE heading end -->
+   
+       
+ 
+</head>
 
-        <!-- CHAT SECTION -->
-        <div class="chat-area">
-          <div class="container-1">
-            <p>That sounds great. I’d be happy with that.</p>
-          </div>
-          <div class="container">
-            <p>Could you send over some pictures of your dog, please?</p>
-          </div>
-          <div class="img-container">
-            <span>
-              <img src="images/dog-image-1.jpg" alt="" />
-              <img src="images/dog-image-2.jpg" alt="" />
-              <img src="images/dog-image-3.jpg" alt=""
-            /></span>
-          </div>
-
-          <!-- RIGHT SIDE CHAT start -->
-          <div class="chat-right">
-            <div class="container-right">
-              <p>Here are a few pictures. She’s a happy girl!</p>
+<body>
+    <div class="cell clearfix">
+        <div class="left_background"></div>
+        <div class="right_background"></div>
+        <div class="main_block">
+            <div class="phone">
+                <div class="phone_display">
+                   
+                    <div class="top_panel">
+                      <div class="oval"></div>
+                       <div class="top_panel_info clearfix">
+                        
+                        <div class="icon">
+                            <div class="arrow">&#8249;</div>
+                            <div class="icon_item"><img src="images/avatar.jpg" alt="" class="avatar"></div>
+                        </div>
+                        <div class="person_info">
+                            <div class="name">Samuel Green</div>
+                            <div class="status">Available to Walk</div>
+                            </div>
+                            <div class="menu_symbol">
+                                <span class="point"></span>
+                                <span class="point"></span>
+                                <span class="point"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="middle_panel clearfix">
+                        <div class="message_left"><p class="text">That sounds great. I’d be happy with that.</p></div>
+                        <div class="message_left"><p class="text">Could you send over some pictures of your dog, please?</p></div>
+                        <div class="message_photo">
+                            <div class="photo"><img src="images/dog-image-1.jpg" alt="" class="dog_photo"></div>
+                            <div class="photo"><img src="images/dog-image-2.jpg" alt="" class="dog_photo"></div>
+                            <div class="photo"><img src="images/dog-image-3.jpg" alt="" class="dog_photo"></div>
+                        </div>
+                        <div class="message_right"><p class="text">Here are a few pictures. She’s a happy girl!</p></div>
+                        <div class="message_right"><p class="text">Can you make it?</p></div>
+                        <div class="message_left"><p class="text">She looks so happy! The time we discussed works. How long shall I take her out for?</p></div>
+                        <div class="message_left_cost">
+                            <div class="circle"></div>
+                            <div class="duration">30 minute walk</div>
+                            <div class="cost">$29</div>
+                        </div>
+                        <div class="message_left_cost">
+                            <div class="circle"></div>
+                            <div class="duration">1 hour walk</div>
+                            <div class="cost">$49</div>
+                        </div>
+                        <div class="message_input">
+                            <p class="message_text">Type a message…</p>
+                            <div class="send_symbol"><p class="symbol">&#8250;</p></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container-right-short">
-              <p>Can you make it?</p>
+            <div class="info_block">
+                <h3 class="info_block_title">Simple booking</h3>
+                <p class="info_block_description">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
             </div>
-          </div>
-          <!-- RIGHT SIDE CHAT end -->
-          <div class="last-chat-box">
-            <p>
-              She looks so happy! The time we discussed works. How long shall I
-              take her out for?
-            </p>
-          </div>
         </div>
-        <!-- PRICE CHAT BOX start -->
-        <div class="price-area">
-          <div class="price-chat">
-            <span>
-              <h4>30 minute walk</h4>
-              <p>$29</p></span
-            >
-          </div>
-          <div class="price-chat">
-            <span>
-              <h4>1 hour walk</h4>
-              <p>$49</p></span
-            >
-          </div>
-        </div>
-        <!-- PRICE CHAT BOX end -->
-
-        <!-- TEXT BOX AREA -->
-        <div class="text-box">
-          <p>Type a message...</p>
-          <div class="send-button">
-            <i class="fas fa-chevron-circle-right fa-lg"></i>
-          </div>
-        </div>
-      </section>
-      <!-- LAST PARAGRAPH SECTION -->
-      <section class="final-section">
-        <div class="last-para">
-          <h1>Simple booking</h1>
-          <p>
-            Stay in touch with our dog walkers through the chat interface. This
-            makes it easy to discuss arrangements and make bookings. Once the
-            walk has been completed you can rate your walker and book again all
-            through the chat.
-          </p>
-        </div>
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Manoj kumar</a>.
-        </div>
-      </section>
-    </div>
+    </div>             
+    <div class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Manojkumar</a>. </div>
+</body>
   </body>
 </html>
